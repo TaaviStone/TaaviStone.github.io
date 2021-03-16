@@ -463,3 +463,23 @@ header {
 #social-media img:hover {
     filter: invert(30%) sepia(0%) saturate(6000%) brightness(1000%);
 }
+
+.mobile {
+    display: none;
+    width: 100%;
+    color: #ffffff;
+    font-size: 15rem;
+    text-align: center;
+}
+
+@media (max-width: 992px)  {
+    body {
+        visibility: hidden;
+    }
+
+    .mobile {
+        display: block;
+        visibility: visible;
+    }
+
+}
